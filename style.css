@@ -9,7 +9,8 @@
 
 body {
     width: 100vw;
-    background-image: url('banner-google.png');
+    background-image: url('imagens/banner-google.png');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -49,7 +50,7 @@ label {
 input {
     height: 20px;
     border-radius: 10px;
-    border: 1px solid rgba(39, 38, 38, 0.445);
+    border: 1px solid rgba(39, 38, 38, 0.733);
 }
 
 .container {
@@ -71,11 +72,16 @@ input {
 .btn {
     width: 260px;
     height: 27px;
-    background: linear-gradient(to right, rgba(255, 0, 0, 0.603), rgba(255, 255, 0, 0.61), rgba(0, 128, 0, 0.596), rgba(0, 0, 255, 0.589));
     padding: 5px;
-    border: 1px solid rgba(39, 38, 38, 0.445);
+    border: 1px solid rgba(39, 38, 38, 0.733);
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 14px;
+    cursor: pointer;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgb(194, 189, 189);
 }
