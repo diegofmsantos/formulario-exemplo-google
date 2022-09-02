@@ -85,3 +85,11 @@ input {
 .btn:hover {
     background-color: rgb(194, 189, 189);
 }
+
+@media screen and (max-width: 425px)  {
+    
+    .container {
+        width: 320px;
+        height: 350px;
+    }
+}
